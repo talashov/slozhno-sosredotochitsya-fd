@@ -2,7 +2,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
-  padding: 0 20px;
+  /* padding: 0 20px; */
   background-image: var(--bg-img-dark);
   background-color: var(--decor-color);
   background-position: top;
@@ -48,8 +48,6 @@
   height: 25px;
 }
 
-.decorated-zone {}
-
 .header__theme-menu {
   margin-top: 20px;
   margin-bottom: 273px;
@@ -60,8 +58,6 @@
   justify-content: center;
   gap: 7px;
 }
-
-.header__theme-menu-item {}
 
 .header__theme-menu-button {
   font-family: var(--font-family);
@@ -83,16 +79,9 @@
   outline: 1px solid rgba(255, 0, 112, 0.4);
 }
 
-.header__theme-menu-button_type_light {}
-
 .header__theme-menu-button_active {
   border: 1px solid rgba(255, 0, 112, 0.4);
 }
-
-
-.header__theme-menu-button_type_auto {}
-
-.header__theme-menu-button_type_dark {}
 
 .span-decor {
   position: absolute;
