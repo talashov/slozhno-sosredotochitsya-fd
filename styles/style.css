@@ -80,7 +80,8 @@
 }
 
 .header__theme-menu-button:focus {
-  outline: 1px solid rgba(255, 0, 112, 0.4);
+  outline: none;
+  border-bottom: 1px solid rgba(255, 0, 112, 0.4);
 }
 
 .header__theme-menu-button_active {
@@ -189,8 +190,7 @@
 }
 
 .text-shadow:focus {
-  outline: 1px solid var(--text-color);
-  outline-offset: 1px;
+  border: 1px solid var(--text-color);
 }
 
 .section-2 {

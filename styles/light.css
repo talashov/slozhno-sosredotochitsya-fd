@@ -23,6 +23,11 @@
   .section__tip-title  {
     color: var(--text-color);
   }
+
+  .header__theme-menu-button {
+    color: var(--text-color);
+  }
+
   .decorated-zone::before {
     border-top: 1px solid var(--text-color);
     border-right: 1px solid var(--text-color);
@@ -31,6 +36,19 @@
   .decorated-zone::after {
     border-bottom: 1px solid var(--text-color);
     border-left: 1px solid var(--text-color);
+  }
+
+  .header__theme-menu-button:hover {
+    border: 1px solid #32312D;
+  }
+  
+  .header__theme-menu-button:focus {
+    outline: none;
+    border-bottom: 1px solid var(--text-color);
+  }
+  
+  .header__theme-menu-button_active {
+    border: 1px solid var(--text-color);
   }
 
   .span-decor {
