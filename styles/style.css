@@ -88,13 +88,10 @@
 
 .header__theme-menu-button_active {
   border: 1px solid rgba(255, 0, 112, 0.4);
+  pointer-events: none
 }
 
 /* .header__theme-menu-button_type_light {} */
-
-.header__theme-menu-button_active {
-  pointer-events: none
-}
 
 /* .header__theme-menu-button_type_auto {} */
 
