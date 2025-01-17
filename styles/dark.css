@@ -9,6 +9,12 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
+  --text-color: #f1b2ce;
+  --decor-color: #000028;
+
+  --bg-img: url(/images/cover-image-dark.png);
 }
 
 .theme-dark .page {
