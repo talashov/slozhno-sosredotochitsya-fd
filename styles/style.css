@@ -345,7 +345,7 @@
 
   /* ==== section ==== */
   .section {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 236px 1fr;
   }
 
   .section__title {
