@@ -19,10 +19,10 @@
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+  
 }
 
-
-@media(prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --accent-color: #ff0070;
     --title-color: #db00ff;

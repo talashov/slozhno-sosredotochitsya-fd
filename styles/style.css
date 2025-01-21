@@ -27,7 +27,7 @@
   padding: 0 20px;
   margin-bottom: 60px;
   height: 100vh;
-  min-height: 668px;  
+  min-height: 668px;
 }
 
 .decorated-zone {
@@ -298,13 +298,9 @@
 
 
 @media (max-width: 768px) {
-  .header {
-    margin-bottom: 0;
-  }
 
   .header__theme-menu {
     margin-top: 60px;
-    margin-bottom: 177px;
     padding-top: 131px;
   }
 
@@ -314,21 +310,8 @@
     gap: 11px;
   }
 
-  .decorated-zone::before {
-    top: -40px;
-  }
-
-  .span-decor {
-    top: -40px;
-  }
-
-  .header__title {
-    margin-bottom: 162px;
-  }
-
   .header__desc {
     max-width: 364px;
-    margin-bottom: 137px;
   }
 
   /* ==== section ==== */
@@ -352,7 +335,6 @@
 
   .footer__title {
     font-size: 120px;
-    padding: 443px 263px 238px 202px;
   }
 }
 
@@ -449,7 +431,5 @@
 
   .footer__title {
     font-size: 116px;
-    padding: 0;
-    padding-top: 246px;
   }
 }
