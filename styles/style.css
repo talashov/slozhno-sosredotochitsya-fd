@@ -333,6 +333,7 @@
   }
 
   .section__list {
+    min-width: none;
     flex-direction: column;
   }
 
