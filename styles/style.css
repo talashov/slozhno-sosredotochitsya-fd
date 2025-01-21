@@ -289,7 +289,7 @@
   font-family: var(--font-family);
   font-weight: var(--font-weight-bold);
   color: var(--title-color);
-  text-shadow: 4px 4px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--accent-color);
   font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   line-height: 83%;
   text-align: center;
