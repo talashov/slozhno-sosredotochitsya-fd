@@ -14,7 +14,7 @@
   --text-color: #353430;
   --decor-color: #FFF1F7;
 
-  --bg-img: url(/images/cover-image-light.png);
+  --bg-img: url(../images/cover-image-light.png);
 }
 
 .theme-light .page {
@@ -29,14 +29,12 @@
     color: var(--text-color);
   }
 
-  .decorated-zone::before,
-  .footer::before {
+  .decorated-zone::before {
     border-top: 1px solid var(--text-color);
     border-right: 1px solid var(--text-color);
   }
 
-  .decorated-zone::after,
-  .footer::after {
+  .decorated-zone::after {
     border-bottom: 1px solid var(--text-color);
     border-left: 1px solid var(--text-color);
   }
@@ -57,14 +55,4 @@
   .span-decor {
     display: none;
   }
-
-  /* .footer::before {
-    border-top: 1px solid var(--text-color);
-    border-right: 1px solid var(--text-color);
-  }
-
-  .footer::after {
-    border-bottom: 1px solid var(--text-color);
-    border-left: 1px solid var(--text-color);
-  } */
 }
