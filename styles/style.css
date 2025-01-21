@@ -157,6 +157,7 @@
   grid-template-columns: 315px 1fr;
   gap: 20px;
   margin-bottom: 80px;
+  overflow: hidden;
 }
 
 .section__title {
