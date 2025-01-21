@@ -3,7 +3,7 @@
   и их переопределение под различные устройства
 */
 :root {
-  --font-family: 'IBM Plex mono', serif;
+  --font-family: 'IBM Plex mono', 'monospace';
   --font-weight-normal: normal;
   --font-weight-bold: bold;
   --main-text-size: 18px;
