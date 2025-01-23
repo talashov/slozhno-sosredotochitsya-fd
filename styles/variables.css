@@ -15,5 +15,12 @@
   --text-color: #f1b2ce;
   --decor-color: #000028;
 
+  
+  --accent-color-text: #ff0070;
+  --accent-color-btn: #ff0070;
+  --accent-color-hover-rgb: 255, 0, 112;
+  --decor-color-title: #000028;
+
+
   --bg-img: url(../images/cover-image-dark.png);
 }

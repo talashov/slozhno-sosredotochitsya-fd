@@ -10,15 +10,6 @@
   background-attachment: fixed;
 }
 
-.title-decor {
-  font-family: var(--font-family);
-  font-size: var(--main-text-size);
-  font-weight: var(--font-weight-bold);
-  line-height: var(--main-text-line);
-  color: var(--decor-color);
-  background-color: var(--accent-color);
-}
-
 /* ==== header ==== */
 
 .header {
@@ -37,8 +28,8 @@
 .decorated-zone::before {
   position: absolute;
   content: '';
-  border-top: 1px solid var(--accent-color);
-  border-right: 1px solid var(--accent-color);
+  border-top: 1px solid var(--accent-color-btn);
+  border-right: 1px solid var(--accent-color-btn);
   top: 20px;
   right: 20px;
   width: 25px;
@@ -48,8 +39,8 @@
 .decorated-zone::after {
   position: absolute;
   content: '';
-  border-bottom: 1px solid var(--accent-color);
-  border-left: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--accent-color-btn);
+  border-left: 1px solid var(--accent-color-btn);
   bottom: 20px;
   left: 20px;
   width: 25px;
@@ -71,7 +62,7 @@
 .header__theme-menu-button {
   font-family: var(--font-family);
   font-weight: var(--font-weight-normal);
-  color: var(--accent-color);
+  color: var(--accent-color-btn);
   font-size: var(--main-text-size);
   line-height: 100%;
   padding: 2.5px 14px;
@@ -81,16 +72,16 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid rgba(var(--accent-color-rgb), 0.4);
+  border: 1px solid rgba(var(--accent-color-hover-rgb), 0.4);
 }
 
 .header__theme-menu-button:focus-visible {
   outline: none;
-  border-bottom: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--accent-color-btn);
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--accent-color-btn);
   pointer-events: none
 }
 
@@ -102,7 +93,7 @@
 
 .span-decor {
   position: absolute;
-  /* visibility: var(--span-decor-visibility); */
+  display: var(--span-decor-display);
   right: 49px;
   top: 20px;
   font-family: var(--font-family);
@@ -134,6 +125,15 @@
   margin-left: -20px;
 }
 
+.title-decor {
+  font-family: var(--font-family);
+  font-size: var(--main-text-size);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--main-text-line);
+  color: var(--decor-color-title);
+  background-color: var(--accent-color);
+}
+
 .header__desc-box {
   display: flex;
   justify-content: flex-end;
@@ -162,7 +162,7 @@
 
 .section__title {
   max-width: 315px;
-  color: var(--accent-color);
+  color: var(--accent-color-text);
   background-color: transparent;
   margin-bottom: 20px;
 }
@@ -222,7 +222,7 @@
   font-size: var(--main-text-size);
   font-weight: var(--font-weight-normal);
   line-height: var(--main-text-line);
-  color: var(--decor-color);
+  color: var(--decor-color-title);
   background-color: var(--accent-color);
   margin-bottom: 10px;
 }

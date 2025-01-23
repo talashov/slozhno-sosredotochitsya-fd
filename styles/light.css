@@ -16,18 +16,22 @@
   --text-shadow: #32312d;
   --text-shadow-rgb: 50, 49, 45;
 
+  --accent-color-text: #353430;
+  --accent-color-btn: #353430;
+  --accent-color-hover-rgb: 50, 49, 45;
+  --accent-color-focus: #353430;
+  --decor-color-title: #353430;
+
   --bg-img: url(../images/cover-image-light.png);
 
+  --span-decor-display: none;
 }
 
-
 .theme-light .page {
-
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
 @media (prefers-color-scheme: light) {
-
   :root {
     --accent-color: #ff8dcb;
     --title-color: #ffc2e6;
@@ -36,7 +40,14 @@
     --text-shadow: #32312d;
     --text-shadow-rgb: 50, 49, 45;
 
+    --accent-color-text: #353430;
+    --accent-color-btn: #353430;
+    --accent-color-hover-rgb: 50, 49, 45;
+    --accent-color-focus: #353430;
+    --decor-color-title: #353430;
 
     --bg-img: url(../images/cover-image-light.png);
+
+    --span-decor-display: none;
   }
 }
